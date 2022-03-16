@@ -1,0 +1,126 @@
+body {
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+  }
+  .container {
+    display: flex;
+  }
+  .insideleft {
+    margin-top: 30px;
+  }
+  .mainapple {
+    position: relative;
+    background-color: yellowgreen;
+    height: 365px;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+  }
+  #bigapple {
+    width: 100%;
+  }
+  .mainapple > img {
+    margin-top: 40px;
+    position: absolute;
+    left: -50px;
+  }
+  .subapple {
+    background-color: white;
+    height: 80px;
+    width: 300px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .insideleft {
+    position: absolute;
+    left: -30px;
+  }
+  .maincard {
+    margin-top: 50px;
+    position: relative;
+    left: 450px;
+    background-color: white;
+    height: 500px;
+    width: 565px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .insideright {
+    position: absolute;
+    padding-left: 250px;
+  }
+  .bod {
+    border: 2px solid black;
+  }
+  button {
+    color: white;
+    background-color: red;
+    padding: 12px 30px 12px 30px;
+    border-radius: 8px;
+  }
+  .appleshead {
+    margin-top: 40px;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .benefits {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 800;
+    color: rgb(172, 172, 172);
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .code {
+    font-size: 11px;
+    font-weight: 400;
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .imgcolor {
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  i {
+    padding: 8px;
+    color: white;
+  }
+  .price {
+    margin-top: 30px;
+    color: red;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+  }
+  .amount {
+    margin-top: -25px;
+    padding-left: 10px;
+    font-size: 58px;
+  }
+  span > img {
+    width: 15%;
+  }
+  #firstsubapple {
+    margin-top: 15px;
+    margin-left: 45px;
+    border: 0.5px solid rgb(221, 220, 220);
+  }
+  #secondsubapple {
+    border: 0.5px solid rgb(221, 220, 220);
+  }
+  li {
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
