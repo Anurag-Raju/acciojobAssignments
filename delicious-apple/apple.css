@@ -13,9 +13,9 @@ body {
   }
   .mainapple {
     position: relative;
-    background-color: yellowgreen;
-    height: 365px;
-    width: 270px;
+    background-image: linear-gradient(rgb(104, 216, 0),rgb(185, 216, 46),rgb(104, 216, 0));
+    height: 330px;
+    width: 82%;
     display: flex;
     justify-content: space-between;
     border-radius: 10px 10px 0px 0px;
@@ -41,15 +41,15 @@ body {
   .maincard {
     margin-top: 50px;
     position: relative;
-    left: 450px;
+    left: 475px;
     background-color: white;
-    height: 500px;
-    width: 565px;
+    height: 480px;
+    width: 530px;
     border-radius: 10px 10px 10px 10px;
   }
   .insideright {
     position: absolute;
-    padding-left: 250px;
+    padding-left: 45%;
   }
   .bod {
     border: 2px solid black;
@@ -57,7 +57,7 @@ body {
   button {
     color: white;
     background-color: red;
-    padding: 12px 30px 12px 30px;
+    padding: 4% 8% 4% 8%;
     border-radius: 8px;
   }
   .appleshead {
@@ -69,7 +69,7 @@ body {
     font-family: "Source Sans Pro", sans-serif;
   }
   .benefits {
-    margin-top: 30px;
+    margin-top: 10%;
     font-size: 12px;
     font-weight: 800;
     color: rgb(172, 172, 172);
@@ -86,15 +86,15 @@ body {
     font-family: "Source Sans Pro", sans-serif;
   }
   .imgcolor {
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 8%;
+    margin-left: 10%;
   }
   i {
     padding: 8px;
     color: white;
   }
   .price {
-    margin-top: 30px;
+    margin-top: 13%;
     color: red;
     font-family: "Montserrat", sans-serif;
     font-family: "Roboto", sans-serif;
@@ -103,22 +103,22 @@ body {
   }
   .amount {
     margin-top: -25px;
-    padding-left: 10px;
-    font-size: 58px;
+    padding-left: 5%;
+    font-size: 300%;
   }
   span > img {
     width: 15%;
   }
   #firstsubapple {
-    margin-top: 15px;
-    margin-left: 45px;
+    margin-top: 5%;
+    margin-left: 10%;
     border: 0.5px solid rgb(221, 220, 220);
   }
   #secondsubapple {
     border: 0.5px solid rgb(221, 220, 220);
   }
   li {
-    font-size: 13px;
+    font-size: 80%;
     font-family: "Montserrat", sans-serif;
     font-family: "Roboto", sans-serif;
     font-family: "Source Sans Pro", sans-serif;
